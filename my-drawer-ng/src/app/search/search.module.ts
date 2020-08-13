@@ -3,6 +3,7 @@ import { NativeScriptCommonModule } from "nativescript-angular/common";
 
 import { SearchRoutingModule } from "./search-routing.module";
 import { SearchComponent } from "./search.component";
+import { NoticiasService } from "../domain/noticias.service";
 
 @NgModule({
     imports: [
@@ -12,6 +13,9 @@ import { SearchComponent } from "./search.component";
     declarations: [
         SearchComponent
     ],
+    /*providers: [
+        NoticiasService
+    ],*/
     schemas: [
         NO_ERRORS_SCHEMA
     ]
