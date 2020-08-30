@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "importHelpers": false,
+    "types": [
+      "jasmine"
+    ],
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "baseUrl": "."
+  }
+}
